@@ -1,6 +1,6 @@
 import express from "express";
-import viewRouter from './routes/views.router.js'
-import __dirname from "./utils.js";
+import viewRouter from './src/routes/views.router.js'
+import __dirname from "./src/utils.js";
 import handlebars from 'express-handlebars'
 
 const app = express()
