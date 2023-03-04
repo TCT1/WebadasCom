@@ -2,7 +2,7 @@ import { Router } from "express";
 
 const router = Router()
 
-router.get('/',(req,res)=>{
+router.get('/home',(req,res)=>{
     res.render('landpage')
 })
 
@@ -16,6 +16,10 @@ router.get('/frasesdimarco',(req,res)=>{
 
 router.get('/social',(req,res)=>{
     res.render('social')
+})
+
+router.get('/ajedrez',(req,res)=>{
+    res.render('ajedrez')
 })
 
 export default router
