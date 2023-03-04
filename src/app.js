@@ -1,6 +1,6 @@
 import express from "express";
-import viewRouter from './src/routes/views.router.js'
-import __dirname from "./src/utils.js";
+import viewRouter from './routes/views.router.js'
+import __dirname from "./utils.js";
 import handlebars from 'express-handlebars'
 
 const app = express()
@@ -19,5 +19,5 @@ app.use(express.static(__dirname + "/public"));
 /* app.use('/api/products',productsRouter)
 app.use('/api/session',sessionRouter) */
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 8080
 const server = app.listen(PORT,()=>console.log('Server arriba: 8080'))
