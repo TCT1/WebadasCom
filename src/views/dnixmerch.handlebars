@@ -1,3 +1,116 @@
-<div>
-    <iframe style="border-radius:24px" src="https://embed.creator-spring.com/widget?slug=my-store-dd1e08&per=6&bg=ffffff&txtcolor=000000&currency=&page=1" title="Dnix merch Merch store powered by Spring" width="320" height="420" data-reactroot=""></iframe>
+<nav class="navbar navbar-expand bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./">Webadas.com</a>
+        <button class="navbar-toggler" type="button" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./concursos">Concursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./frasesdimarco">Frases</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./social">Social</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./ajedrez">Ajedrez</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./dnixmerch">Ajedrez</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1>Dnix Merch</h1>
+<p class="descMerch">Bienvenido al merch del canal Dnix</p>
+
+<div class="merch">
+    <iframe style="border-radius:24px" src="https://embed.creator-spring.com/widget?slug=my-store-dd1e08&per=6&bg=ffffff&txtcolor=000000&currency=&page=1" title="Dnix merch Merch store powered by Spring" width="50%" height="700" data-reactroot=""></iframe>
 </div>
+
+<footer class="footer">
+    <div class="footer__redes">
+        <a target="_blank" href="https://www.instagram.com/webadascom/"><i class="fab fa-instagram icon2"></i></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCN-ifptEgme0n2OiUhDeNyQ"><i class="fab fa-youtube icon4"></i></a>
+    </div>
+</footer>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        min-height: 100%;
+        background-color: #1d1d1d;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1,
+    .descMerch {
+        display: flex;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        width: 50%;
+        padding: 15px;
+    }
+
+    .merch{
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        transition: all 1s ease;
+        margin-top: auto;
+    }
+
+    .footer__redes {
+        display: flex;
+        margin-top: 120px;
+        height: 75px;
+        background: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fab {
+        transition: all .3s ease;
+        margin: 0 10px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        background: #000;
+        border-radius: 50%;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .icon2:hover {
+        background: #c13584;
+        transform: scale(1.2);
+    }
+
+    .icon4:hover {
+        background: #c4302b;
+        transform: scale(1.2);
+    }
+</style>
