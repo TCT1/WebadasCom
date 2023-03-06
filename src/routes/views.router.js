@@ -22,4 +22,8 @@ router.get('/ajedrez',(req,res)=>{
     res.render('ajedrez')
 })
 
+router.get('/dnixmerch',(req,res)=>{
+    res.render('dnixmerch')
+})
+
 export default router
