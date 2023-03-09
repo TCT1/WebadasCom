@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="./">Webadas.com</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -164,5 +164,60 @@
     .icon4:hover {
         background: #c4302b;
         transform: scale(1.2);
+    }
+
+    /*Queries*/
+    @media (max-width:915px) {
+        .descFrases {
+            width: 65%;
+        }
+    }
+
+    @media (max-width:768px) {
+        h1 {
+            font-size: 55px;
+        }
+        
+        .descFrases {
+            font-size: 18px;
+            width: 80%;
+        }
+    }
+
+    @media (max-width:352px) {
+        h1 {
+            font-size: 40px;
+        }
+        
+        .descFrases {
+            font-size: 12px;
+            width: 90%;
+        }
+    }
+
+    @media (max-width:818px){
+        .Frase{
+            width: 80%;
+        }
+    }
+
+    @media (max-width:510px){
+        .textoFrase{
+            font-size: small;
+        }
+
+        .fdmTexto{
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width:366px){
+        .Frase{
+            width: 95%;
+        }
+
+        .fdmTexto{
+            font-size: 18px;
+        }
     }
 </style>
